@@ -1,0 +1,47 @@
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./Image/kazuend-2KXEb_8G5vo-unsplash.jpg) ;
+  background-size: cover ;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+  margin-top: -10rem;
+  font-weight: normal;
+}
+
+.countdown-container {
+  display: flex;
+}
+
+.big-text {
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 5rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.5rem;
+  color: aliceblue;
+}
